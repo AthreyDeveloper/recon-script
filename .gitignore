@@ -1,0 +1,7 @@
+# Ignore recon output folders
+recon-*/
+*.txt
+
+# Ignore tool cache or backup files
+*.log
+*.bak
