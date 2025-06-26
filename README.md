@@ -25,26 +25,3 @@ A fast, flexible recon automation script designed for bug bounty hunters and pen
 
 Make sure these tools are installed:
 
-```bash
-subfinder gau waybackurls dnsx naabu httpx whatweb katana gf nuclei
-
-## 🔧 Usage
-
-```bash
-chmod +x recon.sh
-./recon.sh example.com --gf-all --notify
-# Recon Script
-
-
-Flags:
-
---stealth: Run in stealth mode (low rate, less noise)
---gf-all: Run all GF patterns instead of just XSS/SQLi/SSRF
---resume: Skip steps that have already completed
---notify: Print notification after script ends
-🧪 Sample Output
-
-subdomains.txt: Subdomain list
-live_httpx.txt: Live URLs with status/title
-ports.txt: Open ports
-nuclei_findings.txt: Vulnerability scan report
